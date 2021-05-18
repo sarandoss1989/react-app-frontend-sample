@@ -1,0 +1,1760 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate" />
+<title>
+The Hindu Crossword+
+</title>
+
+<link href="https://crossword.thehindu.com/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://crossword.thehindu.com/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600" rel="stylesheet">
+<link href="https://crossword.thehindu.com/css/style.min.css?20191204" rel="stylesheet">
+
+<script>
+function baseURL(){	
+	return "https://crossword.thehindu.com/";
+}
+
+function taiURL(){	
+	return "https://tai.thehindu.com/";
+}
+function baseTHURL(){
+	
+	return "https://crossword.thehindu.com/";
+}
+var packagePlanId="20";
+var FreepackagePlanId="28";
+var freeplanActivated=false;
+var print_console=false;
+var siteId="CRO-PWI4SI";
+</script>
+<script type="text/javascript" src="https://crossword.thehindu.com/js/require.min.js"></script>
+<script type="text/javascript" src="https://crossword.thehindu.com/js/require-config.min.js?20191204"></script>
+<script type="text/javascript" src="https://crossword.thehindu.com/js/jquery.min.js"></script>
+
+
+<script>
+function loadPromiseScript(src) {
+	  return new Promise(function(resolve, reject) {
+	    let script = document.createElement('script');
+	    script.src = src;
+	    script.async = true;
+	    script.onload = function(){
+	    	 resolve(script);
+	    }
+	   document.head.append(script);
+	  });
+	}
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  
+  
+  gtag('config', 'UA-10158580-38');
+  
+  
+</script>
+
+<script type="text/javascript" src="https://crossword.thehindu.com/js/userinfo.min.js?20191204"></script>
+
+
+
+<style>
+body {
+	font-family: Fira Sans !important;
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden;
+}
+a{
+cursor:pointer;
+}
+.nopad {
+	padding: 0;
+}
+
+/*slider*/
+.CrosswordContainerDiv{
+	text-align: center;
+	font-family: Fira Sans;
+}
+
+.CrosswordContainerDiv p {
+	text-align: left;
+}
+
+
+.tblockCw {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	padding: 2em 0em;
+	width: 100%;
+	float: left;
+	min-height: 140px;
+	height: 100%;
+}
+
+
+.tblockCw1 {
+	background-image: linear-gradient(to right, #1d191e, #606060);
+}
+
+.tblockCw2 {
+	background-image: linear-gradient(to right, #1f2e60, #46a8ec 99%);
+}
+
+.tblockCw3 {
+	  background-image: linear-gradient(to right, #947b04, #e3db01 99%);
+}
+.tblockCw4 {
+	background-image: linear-gradient(to right, #f62982 1%, #f3b6fe 99%);
+}
+.tblockCw5 {
+	background-image: linear-gradient(to right, #270b6e, #cbadfe 100%);
+}
+.tblockCw6 {
+  background-image: linear-gradient(to right, #196900 1%, #a7ce38 100%);
+}
+.tblockCw7 {
+	 background-image: linear-gradient(to right, #5c1303 0%, #ff5300);
+}
+.tblockCw8 {
+	  background-image: linear-gradient(to right, #808080, #c6c6c6);
+}
+.tblockCw9 {
+	background-image: linear-gradient(to right, #345520, #60d872);
+}
+.tblockCw10 {
+	background-image: linear-gradient(to right, #0f7cbb 1%, #67eef3);
+}
+.tblockCw span {
+	width: 100%;
+	float: left;
+}
+
+
+/* block-1 slider design*/
+.tblockCw {
+	padding: 15px 15px;
+}
+
+.tblockCw img {
+	width: 100px;
+	height: auto;
+	    margin-top: 6px;
+}
+
+.tblockCw h4 {
+	font-family: Fira Sans;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin:0px 0px 0px;
+}
+.tblockCw h6 {
+	font-family: Fira Sans;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin:4px 0px 4px;
+}
+.tblockCw p {
+	font-family: Fira Sans;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #f6ee24;
+}
+
+.CrosswordContainerDiv h1 {
+	text-align: left;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+.tblockBottom{
+background: #fff;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width:100%;
+    float:left;
+        font-size: 12px;
+        padding:5px;
+        color: #000;
+            min-height: 54px;
+}
+
+.tblockBottom p{
+color: #828282;
+display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.tblockBottom div{
+padding:0;
+}
+.cwtBlockGrid{
+color:#310a8a;
+ font-weight:700;
+  font-size: 11px;
+}
+
+.comBlockHead{
+    width: 100%;
+    float: left;
+    padding: 16px 13px 16px 13px;
+}
+.comBlockHead h1{
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+.comBlockHead p{
+    display: inline-block;
+    float: right;
+    padding: 12px 0px 0px;
+}
+.comBlockHead a{
+background:#943df4;
+    border-radius: 16px;
+    padding: 5px 40px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+}
+
+/* block-2 slider design*/
+.sblockCw {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	    padding: 10px 15px;
+	width: 100%;
+	float: left;
+	 background: #dee4f0;
+}
+.sblock1, .sblock2, .sblock3{
+    background: #dee4f0;
+}
+.sblockBottom{
+background: #2d038b;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width:100%;
+    float:left;
+        font-size: 12px;
+        padding:8px;
+        color: #000;
+}
+.sblockBottom a{
+color:#fff;
+text-transform:uppercase;
+font-size:14px;
+  font-family: Fira Sans;
+}
+.stextrt{
+padding:0px 10px;
+text-align:left;
+}
+.stextrt h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.stextrt h6{
+font-size: 14px;
+}
+.stextrt p{
+    font-size: 12px;
+}
+.stextrt p.gridClr{
+    color: #310a8a;
+    font-weight: 600;
+}
+.swtBlockGrid {
+    color: #310a8a;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* block-3 box design*/
+
+.lblockCw {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	    padding: 10px 0px;
+	width: 100%;
+	float: left;
+}
+.SectionsCrosswordDiv{
+//padding:0;
+}
+.SectionsCrosswordDiv div.SectionsInDiv{
+margin:10px 0px;
+}
+.SectionsCrosswordDiv div.SectionsInDiv:nth-child(2), .SectionsCrosswordDiv div.SectionsInDiv:nth-child(5), .SectionsCrosswordDiv div.SectionsInDiv:nth-child(8){
+border-left:1px dashed rgba(0, 0, 0, 0.5);
+border-right:1px dashed rgba(0, 0, 0, 0.5);
+}
+.SectionsCrosswordDiv div.SectionsInDiv:nth-child(1),.SectionsCrosswordDiv div.SectionsInDiv:nth-child(2),.SectionsCrosswordDiv div.SectionsInDiv:nth-child(3){
+margin-top:0 !important;
+}
+.SectionsCrosswordDiv{
+    padding-bottom: 2em;
+}
+.Published-daily{
+  font-size: 16px !important;
+text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* media query*/
+
+@media screen and (max-width: 1280px) and (min-width: 1200px) { 
+.subscribeDiv a.cwSubBtn {
+	padding: 3px 10px 5px !important;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px) { 
+.tblockCw h4 {
+    font-size: 20.5px;
+    }
+    .subscribeDiv a.cwSubBtn {
+	padding: 3px 10px 5px !important;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) { 
+.stextrt h4 {
+    font-size: 15px;
+    }
+    .subscribeDiv {
+    text-align: left;
+    padding: 0;
+    }
+   .subscribeDiv a.cwSubBtn{
+       padding: 3px 7px 5px !important;
+   } 
+    
+}
+
+@media screen and (max-width: 767px) {
+.tblockBottom p {
+    -webkit-line-clamp: 3 !important;
+}
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 566px) { 
+.lblockCw{
+width:auto;
+//border-bottom: 1px dotted #827a7a;
+}
+.SectionsCrosswordDiv div.SectionsInDiv:nth-child(5) .lblockCw, .SectionsCrosswordDiv div.SectionsInDiv:nth-child(6) .lblockCw {
+  //  border-bottom: none;
+}
+.tblockCw{
+min-height: 105px;
+}
+.tblockCw h6{
+display:none;
+}
+}
+@media screen and (max-width: 565px) {
+.tblockCw{
+min-height: 105px;
+    padding: 10px 15px;
+}
+.todaysCrosswordDiv .slick-slide{
+width:300px !important; 
+}
+.tblockCw h6{
+display:none;
+}
+}
+@media screen and (max-width: 991px) and (min-width: 320px) { 
+ .sampleCrosswordDiv .slick-slide{
+ width:150px !important; 
+ }
+ .sampleCrosswordDiv .sblockCw{
+     padding: 15px 15px;
+ }
+ .stextrtMobile p {
+    display: none;
+}
+}
+
+.slick-slide{
+outline:none;
+}
+.todaysCrosswordDiv .slick-slide{
+width:350px;
+}
+ .sampleCrosswordDiv .slick-slide{
+ width:350px;
+ }
+
+.pc-prev:hover::before , .pc-next:hover::before {
+  font-family:FontAwesome;
+   display: inline-block;
+   padding: 0px 12px;
+   vertical-align: middle;
+   font-weight:900;
+   font-size:24px;
+    background: #252222;
+    border: 1px solid transparent;
+    border-radius: 50%;
+        opacity: 0.6;
+}
+.pc-prev:hover::before{
+   content: "\f104";
+}
+.pc-next:hover::before {
+   content: "\f105";
+}
+.slick-arrow{
+    position: absolute;
+    top: 4em;
+    z-index: 999999999;
+    color: #fbf9f9;
+    background: transparent;
+    cursor:pointer;
+   width: 50px;
+    height: 50px;
+}
+.pc-prev.slick-arrow{
+    left: 2em;
+    }
+.pc-next.slick-arrow{
+  right: 1em;
+}
+.comBlockHeadsecDiv{
+    padding-bottom: 0;
+}
+
+
+/* Start side menu */
+
+body {
+	font-family: Fira Sans !important;
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden;
+}
+a{
+cursor:pointer;
+}
+.nopad {
+	padding: 0;
+}
+.progressbar{
+display:none;
+}
+#resetsubmit{
+background-color:#310a8a !important;
+border-radius:25px;
+}
+.myHeader{
+background:#fff;
+}
+.cwplanpad .planpagecw{
+    margin-top: 20px !important;
+}
+.signuploginmodal a, .subscriptlist, .signuploginmodal label, .signuploginmodal input:not([type="checkbox"]), p.termscondtion, .signuploginmodal p, i.showpassword{
+font-family: Fira Sans !important;
+ color: #310a8a !important;
+}
+ .signuploginmodal button{
+font-family: Fira Sans !important;
+ 
+}
+.cwCustomoverlay{
+overflow:hidden;
+background:#ccc;
+}
+div#logo-crossword>a {
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+}
+.page-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;
+	overflow-y: auto;*/
+	webkit-box-shadow: -2px 13px 22px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 22px -11px rgba(0,0,0,0.75);
+    box-shadow: -2px 13px 22px -24px rgba(0,0,0,0.75);
+}
+
+.top-nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	float:left;
+	background: #fff;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+	z-index:1;
+}
+#sso-signin {
+    max-width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 0;
+        display: inline-block;
+            cursor: default;
+            color: #000;
+    position: relative;
+    top: 5px;
+}
+.top-nav.affix{
+position: -webkit-sticky;
+z-index:99999;
+ top: 0;
+    left: 0;
+    width: 100%; 
+}
+.top-nav.affix .toggler-container{
+padding:10px;
+}
+.top-nav .toggler-container {
+	position: relative;
+	width: 100%;
+	padding: 12px 15px;
+	float: left;
+}
+
+.top-nav .toggler-container .hamburger {
+	width: 34px;
+    height: auto;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	top: 0.7em;
+	left:1.3em;
+}
+.top-nav .toggler-container .hamburger.hamCross{
+   top: 0.7em;
+   left:1em;
+}
+.top-nav .toggler-container .hamburger div {
+	color: #310a8a;
+}
+
+.top-nav .toggler-container .hamburger:focus {
+	outline: none;
+}
+
+.top-nav .toggler-container .hamburger:hover {
+	transition: all 0.2s ease-in-out;
+}
+
+.top-nav .toggler-container .hamburger:hover .line:nth-child(1) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamburger:hover .line:nth-child(2) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamburger:hover .line:nth-child(3) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamburger .line {
+	transition: all 0.2s ease-in-out;
+	height: 2px;
+	margin: 2px 0;
+	border-radius: 5px;
+	background: #000;
+}
+
+.hamCwCloseText {
+	font-size: 8px;
+	color: #000;
+	font-weight: 700;
+	position: relative;
+	bottom: 3px;
+}
+.hamCwClose{
+top: 6px;
+}
+.top-nav .toggler-container .hamburger .line:nth-child(1) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamburger .line:nth-child(2) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamburger .line:nth-child(3) {
+	width: 100%;
+}
+
+.top-nav .toggler-container .hamCross .line:nth-child(1) {
+	-webkit-transform: rotate(-46deg) translate(-6px, 4px);
+	transform: rotate(-46deg) translate(-6px, 4px);
+}
+
+.top-nav .toggler-container .hamCross .line:nth-child(2) {
+	opacity: 0;
+}
+
+.top-nav .toggler-container .hamCross .line:nth-child(3) {
+	-webkit-transform: rotate(43deg) translate(-3px, -3px);
+	transform: rotate(43deg) translate(-4px, -3px);
+}
+
+.toggler-container .logo {
+	padding: 0;
+}
+
+.DeskLogo {
+	width: 356px !important;
+	height: auto !important;
+}
+.subscribeDiv{
+text-align:right;
+top:4px;
+    padding: 0;
+}
+.subscribeDiv a .fa-user {
+	padding: 0px 15px;
+	color: #310a8a;
+}
+
+.subscribeDiv a.cwSubBtn {
+	padding: 3px 15px 5px;
+	border-radius: 15.5px;
+	background-color: #310a8a;
+	color: #fff;
+	font-size: 12px;
+}
+/*sidenav*/
+body::-webkit-scrollbar {
+	width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+/*right nav*/
+.rightmenuCw {
+	padding: 0;
+	display: inline-block;
+}
+
+.menu-cw {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	cursor: pointer;
+}
+
+.bar-cw {
+	width: 20px;
+	top: 11px;
+	color: #000;
+}
+
+.dropdown-menu-cw {
+	padding: 10px 0;
+	top: 3em;
+	right: -300px;
+	display: block;
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	background:#ccc;
+	    height: 100%;
+}
+
+.menu-cw:hover .dropdown-menu-cw {
+	right: -5.8em;
+	opacity: 1;
+	visibility: visible;
+	//overflow-y:scroll;
+}
+
+.dropdown-menu-cw .linkCw {
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px 10px;
+	display: inline-block;
+	position: relative;
+	color: #000;
+	text-align: left;
+	transition: all 0.5s ease;
+}
+
+.dropdown-menu-cw .linkCw:before {
+	background: #ddd;
+	width: 3px;
+	height: 21px;
+	top: 24%;
+	right: -15px;
+	display: block;
+	position: absolute;
+	content: "";
+	transition: all 0.5s ease;
+	transform: translate(0, 0);
+}
+
+.dropdown-menu-cw .linkCw:hover {
+	opacity: 0.5;
+}
+
+.dropdown-menu-cw .linkCw:focus {
+	letter-spacing: 2px;
+}
+
+.dropdown-menu-cw .linkCw:focus-within:before {
+	width: 3px;
+	background: #310a8a;
+}
+
+/* toggle fun*/
+
+ #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+.clicknavbtn{
+    background: transparent;
+    border: none;
+    color:#000;
+    position:relative;
+    top:0px;
+}
+.clicknavbtn_div.active{
+position:fixed;
+right: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.5s ease;
+}
+.clicknavbtn_div{
+	top: 4.2em;
+	right: -20em;
+	position: fixed;
+	opacity: 0;
+visibility: hidden;
+	transition: all 0.5s ease;
+	background:#000;
+	    height: 100%;
+	        max-width: 250px;
+    width: 100%;
+    overflow-y:scroll;
+    z-index:99999999999999999999999;
+}
+.side-content-lt.active{
+position:fixed;
+left: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.5s ease;
+}
+.side-content-lt{
+z-index:9999999999999999999999;
+padding: 10px 0;
+	top: 4.2em;
+	left: -20em;
+	position: fixed;
+	opacity: 0;
+visibility: hidden;
+	transition: all 0.5s ease;
+	background:#000;
+	    height: 100%;
+	        max-width: 350px;
+    width: 100%;
+    overflow-y:scroll;
+}
+.cwRtMenuIcon {
+display:none;
+}
+/*new inside close left*/
+.close-btn-parent, .close-btn-parent-rt{
+position: relative;
+width: 100%;
+    float: left;
+}
+.side-content-lt .close-btn , .side-content-rt .close-btn-rt{
+	position: absolute;
+	top: 0;
+	width: 25px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	color: #fff;
+    font-size: 18px;
+}
+.side-content-lt .close-btn{
+right: 0;
+top:-14px;
+}
+.side-content-rt .close-btn-rt {
+	right: 0em;
+	top:-5px;
+}
+
+/*.side-content-lt .close-btn:focus, .side-content-rt .close-btn-rt:focus {
+	outline: none;
+}
+
+.side-content-lt .close-btn:hover , .side-content-rt .close-btn-rt:hover{
+	transition: all 0.2s ease-in-out;
+}
+
+.side-content-lt .close-btn:hover .line:nth-child(1), .side-content-rt .close-btn-rt:hover .line:nth-child(1) {
+	transform: rotate(0) translate(-5px, 8px);
+}
+
+.side-content-lt .close-btn:hover .line:nth-child(2) , .side-content-rt .close-btn-rt:hover .line:nth-child(2){
+	transform: rotate(0) translate(-5px, 0);
+}
+
+.side-content-lt .close-btn .line, .side-content-rt .close-btn-rt .line {
+	transition: all 0.2s ease-in-out;
+	height: 2px;
+	width: 100%;
+	margin: 3px 0;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.side-content-lt .close-btn .line:nth-child(1), .side-content-rt .close-btn-rt .line:nth-child(1) {
+	transform: rotate(45deg) translate(1px, 10px);
+}
+
+.side-content-lt .close-btn .line:nth-child(2), .side-content-rt .close-btn-rt .line:nth-child(2) {
+	transform: rotate(-45deg) translate(-4.5px, -5px);
+}
+*/
+
+
+/* cloase button left & right*/
+.cwtitleSubHead{
+    padding: 12px 0px 12px;
+    text-align: center;
+    background: #310a8a;
+    color: #fff;
+}
+.cwtitleSubHead span{
+color:#ffd563;
+}
+.slick-dots{
+   display:none !important;
+}
+.stextrtMobile{
+display:none;
+}
+.todaysCrosswordDiv .SectionsInDiv, .sampleCrosswordDiv .SectionsInDiv, .SectionsCrosswordDiv .SectionsInDiv{
+position:relative;
+}
+.cwCoverDiv{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    outline:none;
+}
+a:focus{
+ outline:none;
+}
+.side-innerContent-lt, .side-innerContent-rt{
+text-align:center;
+}
+.side-innerContent-rt .nav li img{
+padding:20px 0px 5px;
+}
+
+/*nav left inner design*/
+
+.nav-container-left, .nav-container-right{
+  width:100%;
+  float:left;
+  transition: all 0.3s linear;
+}
+.nav-container-right li a{
+padding-bottom:0 !important;
+      padding: 9px 12px 4px !important;
+    
+}
+.nav-container-left .nav, .nav-container-right .nav{
+  list-style-type:none;
+  margin:0px 0px 4.8em;
+  padding:0;
+}
+.nav-container-left li ,.nav-container-right li{
+  height:auto; 
+  position:relative;
+  width: 100%;
+    float: left;
+}
+.nav-container-left a, .nav-container-right a {
+  text-decoration:none;
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:26px;
+  color:#bbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left:25%;
+  letter-spacing:1px;
+  transition: all 0.3s linear;
+  text-align: left;
+  padding: 0;
+}
+.nav-container-left a{
+  border-left: 5px solid #000000;
+}
+.nav-container-right a{
+border-right: 5px solid #000000;
+}
+.nav-container-left .active a, .nav-container-right .active a{
+  color: #fff;
+  background-color: #1B1B1B;
+  outline:0;
+   width:100%;
+    float:left;
+}
+.nav-container-left .active a{
+  border-left:5px solid #f22a86;
+  padding:15px 15px;
+}
+.nav-container-left span.descTextCw{
+    font-size: 12px;
+    text-transform: capitalize;
+    color:#ccc8c8bd;
+    float:left;
+    width:100%;
+    padding-left:0px;
+        line-height: 18px;
+            letter-spacing: 0.5px;
+}
+.nav-container-right .active a{
+border-left:none;
+ border-right:5px solid #f22a86;
+}
+.nav-container-left li:not(.active):hover a, .nav-container-right li:not(.active):hover a{
+  color: #eee;
+  border-left: 5px solid #f22a86;
+  background-color: #1B1B1B;
+}
+.nav-container-right li:not(.active):hover a{
+border-left: none;
+border-right: 5px solid #f22a86;
+}
+.nav-container-left span[class ^= "icon"], .nav-container-right span[class ^= "icon"]{
+  position:absolute;
+  left:20px;
+  font-size: 1.5em;
+  transition: all 0.3s linear;
+}
+
+.nav-container-left li:nth-child(3) a:after, .nav-container-right  li:nth-child(3) a:after{
+content:'';
+width:100px;
+border-bottom:1px solid #4a4a4a;
+}
+.sidebarLogo{
+max-width: 285px;
+    width: 100%;
+    float: left;
+    margin: 15px;
+}
+
+/* Right Sidebar inner content*/
+.rightSidebarLogoRow{
+width:100%;
+float:left;
+    margin: 0;
+    padding:15px 10px 15px 0px;
+    border-bottom:1px solid #4a4a4a;
+}
+#hello-user{
+color:#fff;
+}
+.rightSidebarLogoRow p{
+color:#fff;
+text-transform:uppercase;
+    text-align: left;
+    margin-top:5px;
+}
+.rightSidebarLogoRow p span{
+width:100%;
+float:left;
+color:#ccc4c4;
+}
+.rightSidebarLogo img{
+border: 1px solid #bf44e2;
+    padding: 12px 10px;
+    border-radius: 50%;
+    background: #bf44e2;
+}
+.cwRtMenuIcon{
+  height:32px;
+  width: 29px;
+  background-image: url("https://crossword.thehindu.com/images/crossword-logos/cw_sprite.png");
+      float: left;
+}
+.nav-container-right a span.text{
+padding-left: 10px;
+}
+.cwRtMenuIcon1{
+        background-position: 11em -0.5em;
+}
+.cwRtMenuIcon2{
+      background-position: -0.7em -0.6em;
+}
+.cwRtMenuIcon3{
+     background-position: 18.9em -0.6em;
+}
+.nav>li>a{
+ width: 100%;
+float:left;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+background:#1B1B1B !important;
+}
+.cwRtMenuIconLn1{
+           background-position: 32.2em -0.6em;
+}
+.cwRtMenuIconLn2{
+   background-position: 29.5em -0.6em;
+}
+.cwRtMenuIconLn3{
+        background-position: 26.7em -0.6em;
+}
+.cwRtMenuIconLn4{
+       background-position: 24em -0.6em;
+}
+.cwRtMenuIconLn5{
+        background-position: 21.3em -0.6em;
+}
+.cwRtMenuIconLn6{
+       background-position: 18.9em -0.6em;
+}
+.cwRtMenuIconLn7{
+    background-position: 16.2em -0.6em;
+}
+.cwRtMenuIconLn8{
+        background-position: 13.6em -0.6em;
+}
+.cwRtMenuIconLn9{
+    background-position: 8.2em -0.6em;
+}
+
+.nav-container-left li:nth-child(3) , .nav-container-left li:nth-child(12){
+    border-bottom: 1px solid #353131;
+}
+.side-content-lt .close-btn .line{
+display:none;
+}
+/*media query*/
+
+@media screen and (min-width: 1201px) {
+.subscribeDiv a.cwSubBtn{
+    font-size: 14px !important;
+}
+.subscribeDiv a.cwSubBtn{
+    margin-right: 10px;
+}
+.subscribeDiv{
+padding:0;
+}
+.clicknavbtn i {
+    font-size: 1.4em;
+}
+}
+@media screen and (max-width: 767px) {
+.side-content-lt .close-btn .line{
+display:block;
+}
+.cwtitleSubHead{
+margin:0px 10px !important;
+}
+.nav-container-right img{
+display:none;
+}
+.side-content-lt{
+    max-width: 250px !important;
+}
+.sidebarLogo{
+    max-width: 204px;
+        margin: 20px 15px;
+}
+.side-content-lt .close-btn {
+       right: 0px;
+    top: -7px;
+}
+.side-content-lt, .clicknavbtn_div{
+top:0;
+}
+	.mobileLogo {
+		display: block !important;
+	}
+	.DeskLogo {
+		display: none !important;
+	}
+	.hamburger-menu-button {
+		left: 0;
+	}
+	.cwUserDetails {
+		right: 0;
+	}
+	
+	
+	.toggler-container div{
+	padding:0;
+	}
+	.rightSidebarLogoRow{
+	    padding: 15px 10px 15px 0px !important;
+	}
+	.subscribeDiv {
+	//top: 6px;
+    top: 4px;
+}
+	
+	.toggler-container .logo{
+	    padding: 8px 15px;
+	}
+	.SectionsCrosswordDiv div.col-md-4:nth-child(2), .SectionsCrosswordDiv div.col-md-4:nth-child(5) {
+    border-left: none;
+    border-right: none;
+}
+.Published-daily {
+    font-size: 14px !important;
+    }
+.comBlockHead p{
+    padding: 11px 21px 0px;
+}
+.comBlockHead a{
+    margin-top: 5px;
+}
+.tblockCw h4{
+font-size:16px !important;
+}
+
+.top-nav .toggler-container{
+      // padding: 10px;
+           padding: 5px 10px 15px;
+}
+
+.hamCwClose {
+    top: 2px;
+    left:2px;
+}
+/*.top-nav .toggler-container .hamburger .line{
+    margin: 1.7px 0px;
+}*/
+
+.toggler-container .logo{
+padding:0;
+}
+.nav-container-left span.descTextCw{
+display:none;
+}
+/*.top-nav .toggler-container .hamburger{
+    width: 100%;
+    padding:0px 4px;
+}*/
+#sso-signin{
+display:none;
+}
+
+a#sso-signin{
+cursor: default;
+    text-decoration: none;
+    }
+.SectionsCrosswordDiv .SectionsInDiv{
+width:48%;
+display:inline-block;
+padding:0;
+}
+.SectionsCrosswordDiv{
+padding:0px 15px;
+}
+.changepassimg{
+display:none;
+}
+#changepassword{
+margin:0;
+}
+.hamCwCloseText{
+visibility:hidden !important;
+}
+}
+@media screen and (max-width: 991px) and (min-width: 320px) { 
+.top-nav .toggler-container .hamburger{
+         top: 0.38em;
+    left: 0.7em;
+}
+.top-nav .toggler-container .hamburger.hamCross {
+    top: 0.2em;
+    left: 0.5em;
+}
+.linetxt {
+    width: 22px !important;
+    height: 7px !important;
+}
+.boxtxt {
+    width: 4px !important;
+    height: 4px !important;
+        margin: 2px 0.2px !important;
+    }
+    .hamCross .menu__item--hamburger .linetxt:nth-child(1), .hamCross .menu__item--hamburger .linetxt:nth-child(1) {
+    transform: rotate(45deg) translate(13px, 4px) !important;
+}
+    .hamCross .menu__item--hamburger .linetxt:nth-child(3), .hamCross .menu__item--hamburger .linetxt:nth-child(3) {
+    transform: rotate(-45deg) translate(1px, -4px) !important;
+}
+
+
+.cwtitleSubHead{
+margin:0px 10px !important;
+}
+.signupsubscriptioncontent{
+background:transparent;
+}
+.clicknavbtn i {
+    font-size: 1.4em;
+}
+.tblockCw h4{
+font-size:17px;
+}
+.stextrt h4{
+    font-size: 15px;
+}
+.Published-daily {
+    font-size: 14px !important;
+    }
+.SectionsCrosswordDiv div.col-md-4:nth-child(2), .SectionsCrosswordDiv div.col-md-4:nth-child(5),.SectionsCrosswordDiv div.col-md-4:nth-child(8) {
+    border-left: none;
+    border-right: none;
+}
+.sampleCrosswordSubDiv{
+padding: 0px 5px;
+position:relative;
+}
+.sampleCrosswordSubDiv .stextrt{
+display:none;
+}
+.sampleCrosswordSubDiv .stextrtMobile{
+display:block !important;
+}
+.stextrtMobile h4, .stextrtMobile p, .stextrtMobile h6{
+margin:5px 0px;
+}
+.stextrtMobile, .stextrtMobile p{
+text-align:center;
+}
+.stextrtMobile h4{
+font-size:14px;
+}
+.sblockBottom a{
+    font-size: 12px;
+}
+
+.lblockCw{
+width:100%;
+}
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) { 
+.top-nav .toggler-container .hamburger {
+        top: 0.9em;
+    left: 1.3em;
+}
+.top-nav .toggler-container .hamburger.hamCross {
+    top: 0.2em;
+    left: 0.5em;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 566px) { 
+.SectionsCrosswordDiv .SectionsInDiv{
+width:49%;
+display:inline-block;
+padding:0;
+}
+.stextrt h4{
+font-size:13px !important;
+}
+.mobileLogo img{
+position: relative;
+  top: 5px;
+}
+}
+@media screen and (max-width: 565px) {
+.mobileLogo img{
+position: relative;
+    top: 0px;
+}
+.SectionsCrosswordDiv .SectionsInDiv{
+width:100%;
+padding:0;
+margin:0 !important;
+}
+.stextrt h4{
+font-size:14px !important;
+}
+.lblockCw{
+border-bottom: 1px dashed #827a7a;
+}
+.SectionsCrosswordDiv .SectionsInDiv:last-child .lblockCw{
+border-bottom: none;
+}
+.cwDayFmt{
+margin-right:5px;
+}
+.CrosswordContainerDiv h1{
+font-size: 17px;
+    padding: 10px 5px;
+}
+.comBlockHead p {
+    padding: 11px 0px 0px;
+    font-size:13px;
+}
+.comBlockHead a{
+padding: 3px 25px;
+    margin-top: 5px;
+}
+.sblockBottom{
+    padding: 2px;
+}
+.stextrtMobile p{
+display:none;
+}
+.stextrt h6 {
+    font-size: 12px;
+}
+.lblockCw{
+width:100%;
+}
+.toggler-container .logo{
+padding: 8px 15px!important;
+}
+.top-nav .toggler-container {
+   padding: 4px 10px 4px;
+}
+.tblockBottom{
+    min-height: 72px;
+}
+}
+@media screen and (max-width: 430px) and (min-width: 361px) { 
+.mobileLogo{
+width: 180px !important;
+}
+.subscribeDiv a.cwSubBtn{
+    padding: 3px 10px 5px;
+}
+.clicknavbtn{
+    padding: 0;
+    top: 4px;
+}
+.mobileLogo img{
+    left: -8px;
+}
+.cwtitleSubHead{
+    font-size: 12px;
+        padding: 8px 0px 8px;
+    margin: 0;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 320px) { 
+.mobileLogo{
+width: 165px !important;
+}
+.subscribeDiv a.cwSubBtn{
+    padding: 2px 10px 4px;
+}
+.clicknavbtn{
+    padding: 0;
+    top: 2px;
+}
+.subscribeDiv {
+    top: 5px;
+}
+.mobileLogo img{
+    left: -8px;
+}
+.cwtitleSubHead{
+    font-size: 12px;
+        padding: 8px 0px 8px;
+            margin: 0;
+}
+.todaysCrosswordDiv .slick-slide{
+width:260px !important; 
+    padding: 0px 5px;
+}
+}
+.top-nav {
+	position: -webkit-sticky;
+	z-index: 1;
+}
+
+.sticky-head {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99999999999999999999;
+	border-top: 0;
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+.subscribeDiv {
+    text-align: right;
+    padding: 0;
+}
+.subscribeDiv a.cwSubBtn {
+    padding: 3px 7px 5px !important;
+}
+}
+
+
+/*ham n=menu design start*/
+
+
+.boxtxt {
+  transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.boxtxt {
+  width: 6px;
+  height: 6px;
+  background: #000;
+  margin: 2px 1px;
+  display: inline-block;
+}
+.linetxt{
+width:60px;
+height:10px;
+}
+
+.menu__wrapper > div:hover, .menu__wrapper > div:focus {
+  outline: none;
+}
+.menu__wrapper > span {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: auto;
+}
+
+
+.hamCross .menu__item--hamburger .linetxt:nth-child(1), .hamCross .menu__item--hamburger .linetxt:nth-child(1){
+transform: rotate(45deg) translate(16px, 11px);
+}
+
+.hamCross .menu__item--hamburger .linetxt:nth-child(2) .boxtxt, .hamCross .menu__item--hamburger .linetxt:nth-child(2) .boxtxt{
+color:#fff;
+background:transparent;
+
+transform: rotate(45deg) translate(16px, 11px);
+}
+.hamCross .menu__item--hamburger .linetxt:nth-child(3), .hamCross .menu__item--hamburger .linetxt:nth-child(3) {
+ transform: rotate(-45deg) translate(14px, -16px);
+}
+
+/*
+.menu__item--hamburger:hover .linetxt:nth-child(1), .menu__item--hamburger:focus .linetxt:nth-child(1) {
+      transform: rotate(45deg) translate(16px, 11px);
+}
+.menu__item--hamburger:hover .linetxt:nth-child(2) .boxtxt, .menu__item--hamburger:focus .linetxt:nth-child(2) .boxtxt{
+color:#fff;
+background:transparent;
+}
+.menu__item--hamburger:hover .linetxt:nth-child(2), .menu__item--hamburger:focus .linetxt:nth-child(2) {
+  visibility: visible;
+}
+.menu__item--hamburger:hover .linetxt:nth-child(3), .menu__item--hamburger:focus .linetxt:nth-child(3) {
+      transform: rotate(-45deg) translate(14px, -16px);
+}*/
+
+
+</style>
+</head>
+<body>
+
+
+<div class="myHeader">
+<div class="container-fluid myHeader">
+<div class="row">
+<div class="page-wrapper">
+<div class="top-nav sticky-head">
+<div class="toggler-container">
+<div class="menu__wrapper hamburger">
+<div class="menu__item--hamburger" tabindex="1">
+<div class="linetxt">
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+</div>
+<div class="linetxt">
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+</div>
+<div class="linetxt">
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+<div class="boxtxt"></div>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-1 col-xs-1 hamCwClose">
+
+<div class="side-content-lt">
+<div class="close-btn-parent">
+<button class="close-btn">x
+
+</button>
+</div>
+<div class="side-innerContent-lt">
+<a href="https://crossword.thehindu.com/" class="sidebarLogo"> <img src="https://crossword.thehindu.com/images/crossword-logos/cw_navi_logo.png">
+</a>
+<div class="nav-container-left">
+<ul class="nav">
+<li class="active">
+<a href="https://crossword.thehindu.com/">
+<span class="text">Crossword Home</span>
+<span class="descTextCw">View all crosswords</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.thehindu.com/">
+<span class="text">The hindu home</span>
+<span class="descTextCw">Return to The Hindu home page</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/subscription">
+<span class="text">crossword subscription</span>
+<span class="descTextCw subUserChangeTxt">Subscribe to The Hindu Crosswords</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-cryptic">
+<span class="text">The Hindu Cryptic</span>
+<span class="descTextCw"> The best from our master crossword setters</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-quick">
+<span class="text">The Guardian Quick </span>
+<span class="descTextCw"> An easy brain teaser </span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-everyman">
+<span class="text">Everyman</span>
+<span class="descTextCw"> From the crossword masters at The Observer </span>
+</a>
+</li>
+
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-one-down">
+<span class="text">One Down</span>
+<span class="descTextCw">Word challenges for our younger players</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-sport-on">
+<span class="text">Sport On</span>
+<span class="descTextCw">Test your knowledge of names and terms from the world of sports</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-sportstar">
+<span class="text">The Sportstar Crossword </span>
+<span class="descTextCw">For the sports trivia fans</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-sudoku">
+<span class="text">Sudoku</span>
+<span class="descTextCw">The world's favourite number game</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/crossword/hindu-mini-sudoku">
+<span class="text">Mini Sudoku</span>
+<span class="descTextCw">Number challenges for our younger players</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.thehindu.com/clued-in/anatomy-of-a-cryptic-clue/article29557924.ece">
+<span class="text">Clued In</span>
+<span class="descTextCw">Discuss clues, grids and more</span>
+</a>
+</li>
+<li>
+<a href="https://crossword.thehindu.com/about">
+<span class="text">about us</span>
+<span class="descTextCw">A one-stop-shop for interactive puzzles offered by THG Publishing Private Limited.</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-6">
+<div id="logo-crossword" class="logo">
+<a href="https://crossword.thehindu.com/" class="mobileLogo" style="display:none"><img src="https://crossword.thehindu.com//images/crossword-logos/TH_CW_MW_logo.png">
+</a>
+<a href="https://crossword.thehindu.com/" class="DeskLogo"> <img src="https://crossword.thehindu.com//images/crossword-logos/TH_CW_logo.png">
+</a>
+</div>
+</div>
+<div class="col-md-3 col-sm-5 col-xs-5  subscribeDiv">
+<a class="cwSubBtn" href="https://crossword.thehindu.com/subscription">Subscribe</a>
+<a id="sso-signin"></a>
+<button class="clicknavbtn"><i class="fa fa-user"></i> </button>
+<div class="clicknavbtn_div_parent">
+<div class="clicknavbtn_div">
+<div class="side-content-rt">
+<div class="close-btn-parent-rt">
+<button class="close-btn-rt">x
+
+</button>
+</div>
+<div class="side-innerContent-rt">
+<div class="row rightSidebarLogoRow">
+<div class="col-xs-5">
+<a href="https://crossword.thehindu.com/profile" class="rightSidebarLogo"> <img src="https://crossword.thehindu.com/images/crossword-logos/user_icon.png">
+</a>
+</div>
+<div class="col-xs-7 nopad"><p><span>Hello</span> <span id="hello-user"> user </span></p></div>
+</div>
+<div class="nav-container-right cw-signin ssologin">
+	<ul class="nav"><li class=""><a href="https://crossword.thehindu.com/subscription"><span class="cwRtMenuIcon cwRtMenuIconLn1"></span><span class="text">Subscribe</span></a></li><li><a href="https://crossword.thehindu.com/profile"><span class="cwRtMenuIcon cwRtMenuIconLn2"></span><span class="text">Profile</span></a></li><li><a href="https://crossword.thehindu.com/stats"><span class="cwRtMenuIcon cwRtMenuIconLn3"></span><span class="text">Stats</span></a></li><li><a href="https://crossword.thehindu.com/profile?info=subscriptioninfo"><span class="cwRtMenuIcon cwRtMenuIconLn4"></span><span class="text">Plan</span></a></li><li><a href="https://crossword.thehindu.com/profile?info=transactioninfo"><span class="cwRtMenuIcon cwRtMenuIconLn5"></span><span class="text">Transaction History</span></a></li><li><a href="https://crossword.thehindu.com/faq"><span class="cwRtMenuIcon cwRtMenuIconLn6"></span><span class="text">Help and Support</span></a></li><li><a href="https://crossword.thehindu.com/profile?info=feedback"><span class="cwRtMenuIcon cwRtMenuIconLn7"></span><span class="text">Feedback</span></a></li><li><a href="https://crossword.thehindu.com/profile?info=changepassword"><span class="cwRtMenuIcon cwRtMenuIconLn8"></span><span class="text">Change password</span></a></li><li><a onclick="logout();"><span class="cwRtMenuIcon cwRtMenuIconLn9"></span><span class="text">Sign out</span></a></li><li><img src="https://crossword.thehindu.com//images/cwLandingPageImg/Profile_icon_menu_img.png"></li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+
+		$(document).ready(function(){
+			 $(".hamburger").click(function(e){
+				  e.stopPropagation();
+				  $(".hamburger").toggleClass("hamCross");
+			    $(".side-content-lt").toggleClass("active");
+			    $('.clicknavbtn_div').removeClass("active");
+			    $('body').toggleClass('cwCustomoverlay');
+			  });
+			 $(".close-btn").click(function(e){
+				 e.stopPropagation();
+				 $(".hamburger").removeClass("hamCross");
+				 $('body').removeClass('cwCustomoverlay');
+				  $(".side-content-lt").removeClass("active");
+				  });
+			  
+				
+			  $(".clicknavbtn").click(function(e){
+				  e.stopPropagation();
+			    $(".clicknavbtn_div").toggleClass("active");
+			    $(".side-content-lt").removeClass("active");
+			    $(".hamburger").removeClass("hamCross");
+			    $('body').toggleClass('cwCustomoverlay');
+			  });
+			  
+			  $(".clicknavbtn-close-btn").click(function(e){
+				  e.stopPropagation();
+				  $(".clicknavbtn_div").removeClass("active");
+				  $('body').addClass('cwCustomoverlay');
+				  });
+
+			  $('body').click( function() {
+			        $('.clicknavbtn_div').removeClass("active");
+			        $(".side-content-lt").removeClass("active");
+			        $(".hamburger").removeClass("hamCross");
+			        $('body').removeClass('cwCustomoverlay');
+			    });
+
+
+			});
+
+
+		$(document).ready(function() { 
+			 
+		    var height = $('.top-nav').outerHeight();
+		    $(window).scroll(function() {
+		            if($(this).scrollTop() > height)
+		            {
+		                $('.top-nav').css('position','fixed');
+		                $('body').css('padding-bottom',height+'px');
+		            }
+		            else if($(this).scrollTop() <= height)
+		            {
+		                $('.top-nav').css('position','static');
+		                $('body').css('padding-bottom','0');
+		            }
+		    });
+		    $(window).scroll();
+		    
+		    
+		  
+		});
+
+			
+		
+	</script>
+<a href="https://crossword.thehindu.com/subscription"><p class="cwtitleSubHead"><span>Subscribe Now</span> to get full access to The Hindu Crosswords</p></a>
+</div>
+</body>
+</html>
